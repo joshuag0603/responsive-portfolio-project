@@ -293,6 +293,10 @@ main {
 
 @media screen and (max-width: 768px) {
   .flex-container {
-    
+    display: block;
+    width: 100%;
+  }
+  .flex-item:first-child {
+    min-height: 150px;
   }
 }
